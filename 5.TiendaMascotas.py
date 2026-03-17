@@ -46,7 +46,7 @@ def recomendar_alimento(opcion):
         print("- Hojas verdes")
 
     else:
-        print("Lo sentimos no tenemos recomendaciones para su mascotas")
+        print("Lo sentimos no tenemos recomendaciones para este tipo de mascotas")
 
 opcion_mascota = pedir_mascota()
 recomendar_alimento(opcion_mascota)

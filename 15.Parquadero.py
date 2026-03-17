@@ -22,7 +22,7 @@ total_recaudado = 0
 contador_carros = 0
 contador_motos = 0  
 
-for i in range(0, 9, 1):
+for i in range(0, 8, 1):
     placa = input(f"\nIngrese la placa dell vehiculo {i + 1}: ")
     tipo = input("Ingrese el tipo de vehiculo (carro/moto): ").lower()
     horas_parqueado = int(input("Ingrese las horas parqueado: "))
