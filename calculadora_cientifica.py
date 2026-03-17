@@ -395,7 +395,7 @@ def menu():
         print("  ⚠  Ingresa un número entero entre 0 y 10.")
         return menu()
 
-    if opcion not in range(0, 11):
+    if opcion not in range(1, 10):
         print("  ⚠  Opción fuera de rango. Elige entre 1 y 10.")
         return menu()
 
